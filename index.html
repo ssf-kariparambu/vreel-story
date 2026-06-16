@@ -978,6 +978,24 @@ function go(url){
   function closemenu () {
     sidemenu.style.right = "-200px";
   }
+</script>
+        <script>
+document.addEventListener("click", function(e){
+
+    if(
+        navLinks.classList.contains("active") &&
+        !navLinks.contains(e.target) &&
+        !menuBtn.contains(e.target)
+    ){
+
+        navLinks.classList.remove("active");
+
+        menuIcon.classList.remove("fa-xmark");
+        menuIcon.classList.add("fa-bars");
+    }
+
+});
+</script>
   
 </body>
     </html>
