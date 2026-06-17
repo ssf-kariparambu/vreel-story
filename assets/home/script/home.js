@@ -1,3 +1,12 @@
+//NAV CLOSE
+document.querySelectorAll("#navLinks a").forEach(link => {
+link.addEventListener("click", () => {
+navLinks.classList.remove("active");
+menuIcon.classList.remove("fa-xmark");
+menuIcon.classList.add("fa-bars");
+});
+});
+
 //ABOUT TAB
 
 var tabLinks = document.getElementsByClassName("tab-links");
