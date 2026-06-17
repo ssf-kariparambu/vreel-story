@@ -22,12 +22,6 @@ menuIcon.classList.add("fa-bars");
 }
 });
 
-// IMAGE LONG PRESS
-
-document.addEventListener("contextmenu", function(e){
-e.preventDefault();
-});
-
 // NAVBAR WORK
 
 document.addEventListener("click", function(e){
