@@ -1,4 +1,5 @@
 //NAV CLOSE
+
 document.querySelectorAll("#navLinks a").forEach(link => {
 link.addEventListener("click", () => {
 navLinks.classList.remove("active");
